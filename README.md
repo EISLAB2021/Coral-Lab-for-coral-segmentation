@@ -23,4 +23,5 @@ Coral-Lab is an improved semantic segmentation model based on DeepLabV3+, which 
 # How to use it to estimate
 Inference task: The project folder includes 2 folders named as ‘InferenceIn’ and ‘InferenceOut’ respectively. Put images in ‘InferenceIn’ and use following config to run ‘inference.py’:
 `--data_dir ./InferenceIn/Sample --out_dir ./InferenceOut/Sample --model_name corallab --data_size 512 --segmentation_only --model_dir ./checkpoint/corallab34.pt`
+
 `./InferenceIn/Sample` and `./InferenceOut/Sample` can be changed to your path
